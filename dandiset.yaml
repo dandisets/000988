@@ -13,21 +13,24 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 4172198462
-  numberOfFiles: 12
-  numberOfSubjects: 12
+  numberOfBytes: 66961144697
+  numberOfFiles: 174
+  numberOfSubjects: 175
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
     name: Homo sapiens - Human
     schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
   variableMeasured: []
-citation: Brooks, Frederick; Hunter C. Davis; Pojeong Park; Adam E. Cohen; Yitong
-  Qi (2024) Photophysics-informed two-photon voltage imaging using FRET-opsin voltage
+citation: Brooks, Frederick; Davis, Hunter C.; Park, Pojeong; Qi, Yitong; Cohen, Adam
+  E. (2024) Photophysics-informed two-photon voltage imaging using FRET-opsin voltage
   indicators (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000988/draft
 contributor:
 - affiliation: []
-  email: ''
+  email: fbrooks@g.harvard.edu
   identifier: 0000-0002-4334-8192
   includeInCitation: true
   name: Brooks, Frederick
@@ -41,7 +44,7 @@ contributor:
   - dcite:Visualization
   schemaKey: Person
 - includeInCitation: true
-  name: Hunter C. Davis
+  name: Davis, Hunter C.
   roleName:
   - dcite:Conceptualization
   - dcite:Investigation
@@ -49,28 +52,28 @@ contributor:
   schemaKey: Person
 - identifier: 0000-0002-5574-6104
   includeInCitation: true
-  name: Pojeong Park
+  name: Park, Pojeong
   roleName:
   - dcite:DataCollector
   - dcite:ProjectMember
   - dcite:Researcher
   schemaKey: Person
+- includeInCitation: true
+  name: Qi, Yitong
+  roleName:
+  - dcite:Investigation
+  - dcite:ProjectMember
+  schemaKey: Person
 - email: cohen@chemistry.harvard.edu
   identifier: 0000-0002-8699-2404
   includeInCitation: true
-  name: Adam E. Cohen
+  name: Cohen, Adam E.
   roleName:
   - dcite:Author
   - dcite:Conceptualization
   - dcite:ContactPerson
   - dcite:FundingAcquisition
   - dcite:Supervision
-  schemaKey: Person
-- includeInCitation: true
-  name: Yitong Qi
-  roleName:
-  - dcite:Investigation
-  - dcite:ProjectMember
   schemaKey: Person
 - awardNumber: 1R01NS133755; 1RF1NS126043
   identifier: https://ror.org/01cwqze88

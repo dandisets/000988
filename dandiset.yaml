@@ -13,9 +13,9 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 66961144697
-  numberOfFiles: 174
-  numberOfSubjects: 175
+  numberOfBytes: 73787193680
+  numberOfFiles: 185
+  numberOfSubjects: 186
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
@@ -26,8 +26,8 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured: []
 citation: Brooks, Frederick; Davis, Hunter C.; Park, Pojeong; Qi, Yitong; Cohen, Adam
-  E. (2024) Photophysics-informed two-photon voltage imaging using FRET-opsin voltage
-  indicators (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000988/draft
+  E.; Gong, Daozheng (2024) Photophysics-informed two-photon voltage imaging using
+  FRET-opsin voltage indicators (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000988/draft
 contributor:
 - affiliation: []
   email: fbrooks@g.harvard.edu
@@ -89,6 +89,18 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- email: dzgong@fas.harvard.edu
+  identifier: 0000-0002-3951-1890
+  includeInCitation: true
+  name: Gong, Daozheng
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataManager
+  - dcite:Investigation
+  - dcite:ProjectMember
+  - dcite:Researcher
+  - dcite:Visualization
+  schemaKey: Person
 dateCreated: '2024-05-13T21:21:48.364170+00:00'
 description: 'Voltage imaging from HEK cells, ex vivo mouse brain slice, and in vivo
   anaesthetized mouse barrel cortex.
